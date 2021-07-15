@@ -1,0 +1,57 @@
+.particlesContainer{
+	/*position: fixed;*/
+	/*top: 0;*/
+	/*bottom: 0;*/
+	/*left: 0;*/
+	/*right: 0;*/
+	/*margin: auto;*/
+	/*display: flex;*/
+	/*justify-content: center;*/
+	/*align-items: center;*/
+}
+.emoji-btn{
+	display: inline-flex;
+	position: absolute;
+	height: 3rem;
+	width: 3rem;
+	left: 0;
+	right: 0;
+	top:90%;
+	z-index:9999;
+	border:2px solid black;
+	margin: auto;
+	background-color: white;
+	border-radius: 500px;
+}
+.top-logo{
+	display: inline-flex;
+	position: absolute;
+	height: 6rem;
+	width: 20rem;
+	left: 12%;
+	right: 0;
+	top:8%;
+	margin: auto;
+}
+
+.particle{
+	display: inline-flex;
+	position: absolute;
+	height: 5rem;
+	width: 5rem;
+	left: 0;
+	right: 0;
+	top:100%;
+	border: 2px solid transparent;
+	margin: auto;
+	background-color: transparent;
+	border-radius: 500px;
+	background-image: url("../images/emoji.png");
+	background-repeat: no-repeat;
+	background-size: 30rem;
+	font-size: 80px;
+}
+
+.particle.like{
+	background-position: -7px -10px;
+}

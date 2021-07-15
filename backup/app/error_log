@@ -1,0 +1,1 @@
+[03-Jan-2021 18:06:11 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/wocwoxmy/public_html/app/Emoji.php on line 7

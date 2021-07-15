@@ -1,0 +1,171 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+ion-icon {
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.a:hover + .hide {
+    display: block;
+}
+
+span {
+    cursor: pointer;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.curtain {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.curtain__wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.curtain__wrapper input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.curtain__wrapper input[type=checkbox]:checked {
+
+    display: none;
+}
+
+
+.curtain__wrapper input[type=checkbox]:checked ~ div.curtain__panel--left {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+
+
+}
+
+.curtain__wrapper input[type=checkbox]:checked ~ div.curtain__panel--right {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+
+}
+
+.curtain__panel {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background: white;
+    color: black;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 2s linear;
+    -moz-transition: all 2s linear;
+    -o-transition: all 2s linear;
+  transition: all 2s linear;
+    z-index: 2;
+}
+
+.curtain__panel--left {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.curtain__content {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    -webkit-box-align: center;
+    align-items: center;
+    background: black;
+    color: #fff;
+    padding: 2rem 0;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+}
+
+.btn-outline-dark:hover {
+    background: black;
+}
+
+.emoji {
+    width: 50px;
+    height: 50px;
+    background: #eee;
+    border-radius: 25px; /* half the width */
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    /*   transform: translateX(-60px); */
+}
+
+.entered {
+    background-color: transparent;
+}
+
+.prize {
+    background-color: #FF6B00;
+}
+
+.shared {
+    background-color: #9B3FFF;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
